@@ -1,14 +1,14 @@
-box: wercker/rvm
+box: wercker/ruby
 no-response-timeout: 15
 build:
-  steps:
-    - rvm-use:
-        version: ruby-2.1.5
-    - script:
-        name: echo ruby information
-        code: |
-          echo "ruby version $(ruby -v) running"
-          echo "rvm version $(rvm -v) running"
+#  steps:
+#    - rvm-use:
+#        version: ruby-2.1.5
+#    - script:
+#        name: echo ruby information
+#        code: |
+#          echo "ruby version $(ruby -v) running"
+#          echo "rvm version $(rvm -v) running"
   after-steps:
     - wantedly/pretty-slack-notify@0.2.10:
         webhook_url: $SLACK_WEBHOOK_URL
