@@ -1,9 +1,10 @@
 GIT
-  remote: git://github.com/miyaz/popybot.git
-  revision: 862a96b50dac9ef5b22861d7d890dde8103ac69c
+  remote: git://github.com/miyaz/popybot-plugins.git
+  revision: 765949a5a33b15584ce34e6a2c465c2ef8aeab38
   branch: ruboty-ec2
   specs:
     ruboty-ec2 (0.1.2)
+      aws-sdk (~> 2.0.0)
       ruboty
 
 GEM
@@ -15,6 +16,15 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    aws-sdk (2.0.48)
+      aws-sdk-resources (= 2.0.48)
+    aws-sdk-core (2.0.48)
+      builder (~> 3.0)
+      jmespath (~> 1.0)
+      multi_json (~> 1.0)
+    aws-sdk-resources (2.0.48)
+      aws-sdk-core (= 2.0.48)
+    builder (3.2.2)
     chrono (0.0.6)
       activesupport
     dotenv (2.0.2)
@@ -23,9 +33,12 @@ GEM
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
     i18n (0.7.0)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
     json (1.8.3)
     mem (0.1.5)
     minitest (5.7.0)
+    multi_json (1.11.1)
     multipart-post (2.0.0)
     rake (10.4.2)
     redis (3.2.1)
