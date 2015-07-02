@@ -1,0 +1,2 @@
+# popybot
+ruboty = popybot 
