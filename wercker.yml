@@ -4,20 +4,20 @@ build:
   steps:
     - rvm-use:
         version: ruby-2.1.5
+    - bundle-install
     - script:
         name: echo ruby information
         code: |
           echo "ruby version $(ruby -v) running"
           echo "rvm version $(rvm -v) running"
-
+          cat Gemfile
   after-steps:
-    - wantedly/pretty-slack-notify@0.2.6:
+    - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
     - heroku-deploy
-
   after-steps:
-    - wantedly/pretty-slack-notify@0.2.6:
+    - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
 
