@@ -17,12 +17,14 @@ build:
         token: $SLACK_TOKEN
         username: wercker
         channel: "#sakutto"
+
     - wantedly/pretty-slack-notify@0.2.10:
         webhook_url: $SLACK_WEBHOOK_URL
+
 deploy:
   steps:
     - heroku-deploy
-  after-steps:
-    - wantedly/pretty-slack-notify:
-        webhook_url: $SLACK_WEBHOOK_URL
+#  after-steps:
+#    - wantedly/pretty-slack-notify:
+#        webhook_url: $SLACK_WEBHOOK_URL
 
