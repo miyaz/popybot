@@ -20,7 +20,6 @@ build:
 deploy:
   steps:
     - heroku-deploy
-
   after-steps:
     - sherzberg/slack-notify:
         subdomain: dao
