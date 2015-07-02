@@ -12,7 +12,12 @@ build:
           echo "rvm version $(rvm -v) running"
           cat Gemfile
   after-steps:
-    - wantedly/pretty-slack-notify:
+    - sherzberg/slack-notify:
+        subdomain: dao
+        token: $SLACK_TOKEN
+        username: wercker
+        channel: "#sakutto"
+    - wantedly/pretty-slack-notify@0.2.10:
         webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
