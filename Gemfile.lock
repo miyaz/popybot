@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/miyaz/popybot.git
-  revision: 665de59797d7b8318452f8423d67a7ceed4018b7
+  revision: 862a96b50dac9ef5b22861d7d890dde8103ac69c
   branch: ruboty-ec2
   specs:
-    ruboty-ec2 (0.1.0)
+    ruboty-ec2 (0.1.2)
       ruboty
 
 GEM
@@ -73,7 +73,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-ec2!
+  ruboty-ec2 (= 0.1.2)!
   ruboty-echo
   ruboty-google_image
   ruboty-redis
