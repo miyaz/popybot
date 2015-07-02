@@ -24,5 +24,5 @@ deploy:
     - sherzberg/slack-notify:
         subdomain: dao
         token: $SLACK_TOKEN
-        username: popy
+        username: miyaz
         channel: "#sakutto"
