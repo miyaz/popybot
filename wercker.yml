@@ -12,17 +12,11 @@ build:
           echo "rvm version $(rvm -v) running"
           echo -p "gem list: $(gem list)"
   after-steps:
-    - sherzberg/slack-notify:
-        subdomain: dao
-        token: $SLACK_TOKEN
-        username: popy
-        channel: "#sakutto"
+    - wantedly/pretty-slack-notify@0.2.10:
+        webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
     - heroku-deploy
   after-steps:
-    - sherzberg/slack-notify:
-        subdomain: dao
-        token: $SLACK_TOKEN
-        username: miyaz
-        channel: "#sakutto"
+    - wantedly/pretty-slack-notify@0.2.10:
+        webhook_url: $SLACK_WEBHOOK_URL
