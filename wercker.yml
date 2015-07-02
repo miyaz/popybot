@@ -12,12 +12,15 @@ build:
           echo "from location $(which ruby)"
           echo "rvm version $(rvm -v) running"
           echo -p "gem list: $(gem list)"
+
   after-steps:
     - wantedly/pretty-slack-notify@0.2.6:
         webhook_url: $SLACK_WEBHOOK_URL
+
 deploy:
   steps:
     - heroku-deploy
+
   after-steps:
     - wantedly/pretty-slack-notify@0.2.6:
         webhook_url: $SLACK_WEBHOOK_URL
