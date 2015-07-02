@@ -4,7 +4,6 @@ build:
   steps:
     - rvm-use:
         version: ruby-2.1.5
-    - bundle-install
     - script:
         name: echo ruby information
         code: |
@@ -12,15 +11,19 @@ build:
           echo "from location $(which ruby)"
           echo "rvm version $(rvm -v) running"
           echo -p "gem list: $(gem list)"
-
   after-steps:
-    - wantedly/pretty-slack-notify@0.2.6:
-        webhook_url: $SLACK_WEBHOOK_URL
-
+    - sherzberg/slack-notify:
+        subdomain: dao
+        token: $SLACK_TOKEN
+        username: popy
+        channel: "#sakutto"
 deploy:
   steps:
     - heroku-deploy
 
   after-steps:
-    - wantedly/pretty-slack-notify@0.2.6:
-        webhook_url: $SLACK_WEBHOOK_URL
+    - sherzberg/slack-notify:
+        subdomain: dao
+        token: $SLACK_TOKEN
+        username: popy
+        channel: "#sakutto"
