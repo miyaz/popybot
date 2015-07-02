@@ -56,10 +56,15 @@ GEM
     ruboty-redis-info (0.0.1)
       ruboty
       ruboty-redis
+    ruboty-slack (0.1.11)
+      ruboty (>= 1.0.4)
+      xrc (>= 0.1.8)
     slop (4.2.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    xrc (0.1.8)
+      activesupport
 
 PLATFORMS
   ruby
@@ -73,6 +78,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-redis
   ruboty-redis-info
+  ruboty-slack
 
 BUNDLED WITH
    1.10.5
