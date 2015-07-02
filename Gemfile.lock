@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/DreamArtsOkinawa/dabot.git
-  revision: 544ac1b50dcef93c4ac996ac04a3e6750064a220
+  remote: git://github.com/miyaz/popybot.git
+  revision: 665de59797d7b8318452f8423d67a7ceed4018b7
   branch: ruboty-ec2
   specs:
-    ruboty-ec2 (0.1.1)
+    ruboty-ec2 (0.1.0)
       ruboty
 
 GEM
@@ -56,15 +56,10 @@ GEM
     ruboty-redis-info (0.0.1)
       ruboty
       ruboty-redis
-    ruboty-slack (0.1.11)
-      ruboty (>= 1.0.4)
-      xrc (>= 0.1.8)
     slop (4.2.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    xrc (0.1.8)
-      activesupport
 
 PLATFORMS
   ruby
@@ -78,7 +73,6 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-redis
   ruboty-redis-info
-  ruboty-slack
 
 BUNDLED WITH
    1.10.5
