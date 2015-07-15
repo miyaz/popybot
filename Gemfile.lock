@@ -7,6 +7,14 @@ GIT
       aws-sdk (~> 2.0.0)
       ruboty
 
+GIT
+  remote: git://github.com/miyaz/popybot-plugins.git
+  revision: 6969bd39ea05f8f16ba7e9d7633f501d2696b610
+  branch: ruboty-inc
+  specs:
+    ruboty-inc (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -89,6 +97,7 @@ DEPENDENCIES
   ruboty-ec2 (= 0.1.2)!
   ruboty-echo
   ruboty-google_image
+  ruboty-inc (= 0.0.1)!
   ruboty-redis
   ruboty-redis-info
   ruboty-slack
