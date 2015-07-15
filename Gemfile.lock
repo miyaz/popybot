@@ -9,10 +9,10 @@ GIT
 
 GIT
   remote: git://github.com/miyaz/popybot-plugins.git
-  revision: f16353ed7cadf932569497b2317b2343880c9af0
+  revision: 05be6b1744f8919cccc3afb7ab43267ad670fda1
   branch: ruboty-inc
   specs:
-    ruboty-inc (0.0.5)
+    ruboty-inc (0.0.6)
       ruboty
 
 GEM
@@ -97,7 +97,7 @@ DEPENDENCIES
   ruboty-ec2 (= 0.1.2)!
   ruboty-echo
   ruboty-google_image
-  ruboty-inc (= 0.0.5)!
+  ruboty-inc (= 0.0.6)!
   ruboty-redis
   ruboty-redis-info
   ruboty-slack
