@@ -21,6 +21,21 @@
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
+    },
+    "SDB_USER": {
+      "description": "The username of Sm@rtDB account."
+    },
+    "SDB_PASS": {
+      "description": "The password of Sm@rtDB account."
+    },
+    "SDB_URL": {
+      "description": "Sm@rtDB Base URL."
+    },
+    "ISE_AUTH_PATH": {
+      "description": "PATH to get the INSUITE session key."
+    },
+    "SDB_AUTH_PATH": {
+      "description": "PATH to get the Sm@rtDB session key."
     }
   },
   "keywords": ["chatops"],
