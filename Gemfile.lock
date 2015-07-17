@@ -9,10 +9,10 @@ GIT
 
 GIT
   remote: git://github.com/miyaz/popybot-plugins.git
-  revision: 05be6b1744f8919cccc3afb7ab43267ad670fda1
+  revision: 8a2c93fc457b79b862e3d01aa8c6f573ad7292c6
   branch: ruboty-inc
   specs:
-    ruboty-inc (0.0.6)
+    ruboty-inc (0.0.7)
       ruboty
 
 GEM
@@ -38,7 +38,7 @@ GEM
     dotenv (2.0.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.9.1)
+    faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
     i18n (0.7.0)
     jmespath (1.0.2)
@@ -46,7 +46,7 @@ GEM
     json (1.8.3)
     mem (0.1.5)
     minitest (5.7.0)
-    multi_json (1.11.1)
+    multi_json (1.11.2)
     multipart-post (2.0.0)
     rake (10.4.2)
     redis (3.2.1)
@@ -77,7 +77,7 @@ GEM
     ruboty-redis-info (0.0.1)
       ruboty
       ruboty-redis
-    ruboty-slack (0.1.11)
+    ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
     slop (4.2.0)
@@ -97,7 +97,7 @@ DEPENDENCIES
   ruboty-ec2 (= 0.1.2)!
   ruboty-echo
   ruboty-google_image
-  ruboty-inc (= 0.0.6)!
+  ruboty-inc (= 0.0.7)!
   ruboty-redis
   ruboty-redis-info
   ruboty-slack
