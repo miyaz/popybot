@@ -10,4 +10,4 @@ gem "ruboty-redis-info"
 gem "ruboty-slack"
 gem "ruboty-echo"
 gem 'ruboty-ec2', :git => 'git://github.com/miyaz/ruboty-ec2.git'
-gem 'ruboty-inc', '0.0.8', :git => 'git://github.com/miyaz/popybot-plugins.git', :branch => "ruboty-inc"
+gem 'ruboty-inc', :git => 'git://github.com/miyaz/ruboty-inc.git'
