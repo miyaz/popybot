@@ -1,18 +1,17 @@
 GIT
   remote: git://github.com/miyaz/popybot-plugins.git
-  revision: 765949a5a33b15584ce34e6a2c465c2ef8aeab38
-  branch: ruboty-ec2
-  specs:
-    ruboty-ec2 (0.1.2)
-      aws-sdk (~> 2.0.0)
-      ruboty
-
-GIT
-  remote: git://github.com/miyaz/popybot-plugins.git
   revision: 3d35a8d986f414809be269755e56ebee67816f07
   branch: ruboty-inc
   specs:
     ruboty-inc (0.0.8)
+      ruboty
+
+GIT
+  remote: git://github.com/miyaz/ruboty-ec2.git
+  revision: c463adbedd922cfea872f0c57fd30e66514c7e6e
+  specs:
+    ruboty-ec2 (0.1.3)
+      aws-sdk (~> 2.0.0)
       ruboty
 
 GEM
@@ -94,7 +93,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-ec2 (= 0.1.2)!
+  ruboty-ec2!
   ruboty-echo
   ruboty-google_image
   ruboty-inc (= 0.0.8)!
