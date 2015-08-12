@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/1f4d6fef37988afdfd943ef2cc298145/m "wercker status")](https://app.wercker.com/project/bykey/1f4d6fef37988afdfd943ef2cc298145)
+
 # ruboty-template
 A template to create and deploy your [ruboty](https://github.com/r7kamura/ruboty) on slack.
 
