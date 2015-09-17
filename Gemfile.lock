@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/miyaz/ruboty-ec2.git
-  revision: c6f322de97bce49120bf0bdff2c658089c4ec7c4
+  revision: ba8ecabed1ace366b2e8496911ed0a3355d11820
   specs:
-    ruboty-ec2 (0.2.1)
+    ruboty-ec2 (0.2.2)
       aws-sdk (~> 2.0.0)
       ruboty
 
@@ -39,8 +39,8 @@ GEM
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
     i18n (0.7.0)
-    jmespath (1.0.2)
-      multi_json (~> 1.0)
+    jmespath (1.1.1)
+      json (~> 1.8)
     json (1.8.3)
     mem (0.1.5)
     minitest (5.8.0)
@@ -92,7 +92,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-ec2 (= 0.2.1)!
+  ruboty-ec2 (= 0.2.2)!
   ruboty-echo
   ruboty-google_image
   ruboty-inc (= 0.1.4)!
