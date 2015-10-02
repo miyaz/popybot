@@ -16,7 +16,8 @@ build:
         webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
-    - heroku-deploy
+    - heroku-deploy:
+        key-name: heroku-popy
   after-steps:
     - wantedly/pretty-slack-notify@0.2.10:
         webhook_url: $SLACK_WEBHOOK_URL
