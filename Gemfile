@@ -9,6 +9,6 @@ gem "ruboty-redis"
 gem "ruboty-redis-info"
 gem "ruboty-slack"
 gem "ruboty-echo"
-gem 'ruboty-ec2', '0.3.3', :git => 'git://github.com/miyaz/ruboty-ec2.git'
+gem 'ruboty-ec2', '0.3.4', :git => 'git://github.com/miyaz/ruboty-ec2.git'
 gem 'ruboty-inc', '0.1.6', :git => 'git://github.com/miyaz/ruboty-inc.git'
 gem "ruboty-paizaio"
