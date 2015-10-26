@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/DreamArtsOkinawa/ruboty-sdb.git
+  revision: f1286301290f95af2bc03898817ea1b64c5cde16
+  specs:
+    ruboty-sdb (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/miyaz/ruboty-ec2.git
   revision: 31666e45ea0818c29c5fd5d2a88f614ea4db2632
   specs:
@@ -100,6 +107,7 @@ DEPENDENCIES
   ruboty-paizaio
   ruboty-redis
   ruboty-redis-info
+  ruboty-sdb (= 0.0.1)!
   ruboty-slack
 
 BUNDLED WITH
