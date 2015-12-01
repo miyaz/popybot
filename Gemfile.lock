@@ -74,8 +74,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-paizaio (0.0.1)
-      ruboty
     ruboty-redis (0.0.6)
       redis
       redis-namespace
@@ -104,7 +102,6 @@ DEPENDENCIES
   ruboty-echo
   ruboty-google_image
   ruboty-inc (= 0.1.9)!
-  ruboty-paizaio
   ruboty-redis
   ruboty-redis-info
   ruboty-sdb (= 0.0.4)!
