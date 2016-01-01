@@ -6,14 +6,6 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/miyaz/ruboty-ec2.git
-  revision: b8cc962a5abb3c88bb4d2909afb0ef2f09f54e5f
-  specs:
-    ruboty-ec2 (0.4.6)
-      aws-sdk (~> 2.0.0)
-      ruboty
-
-GIT
   remote: git://github.com/miyaz/ruboty-inc.git
   revision: 8f3d72571a88ed4117d931fe57482c7566dab5e0
   specs:
