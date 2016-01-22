@@ -15,9 +15,10 @@ GIT
 
 GIT
   remote: git://github.com/miyaz/ruboty-inc.git
-  revision: 480e844380962b0e46505282142cc9eb82e7c2ad
+  revision: bc7b106aaca2c21874bd8ce4a1c657ec8ec0d787
   specs:
-    ruboty-inc (0.2.0)
+    ruboty-inc (0.2.1)
+      addressable
       ruboty
 
 GEM
@@ -29,6 +30,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.4.0)
     aws-sdk (2.0.48)
       aws-sdk-resources (= 2.0.48)
     aws-sdk-core (2.0.48)
@@ -101,7 +103,7 @@ DEPENDENCIES
   ruboty-ec2 (= 0.4.9)!
   ruboty-echo
   ruboty-google_image
-  ruboty-inc (= 0.2.0)!
+  ruboty-inc (= 0.2.1)!
   ruboty-redis
   ruboty-redis-info
   ruboty-sdb (= 0.0.4)!
