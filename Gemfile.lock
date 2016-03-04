@@ -15,9 +15,9 @@ GIT
 
 GIT
   remote: git://github.com/miyaz/ruboty-inc.git
-  revision: bac0396dfe6cc30aeacbcdc3d6feb0f33366b3f3
+  revision: ad39fb59d3d7583d8ca66e5a9bb4a42743117b83
   specs:
-    ruboty-inc (0.2.5)
+    ruboty-inc (0.2.6)
       addressable
       ruboty
 
@@ -103,7 +103,7 @@ DEPENDENCIES
   ruboty-ec2 (= 0.5.6)!
   ruboty-echo
   ruboty-google_image
-  ruboty-inc (= 0.2.5)!
+  ruboty-inc (= 0.2.6)!
   ruboty-redis
   ruboty-redis-info
   ruboty-sdb (= 0.0.5)!
