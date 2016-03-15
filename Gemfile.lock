@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/DreamArtsOkinawa/ruboty-sdb.git
-  revision: 1a63c491c0f4574ff323b6b69f5d20b21eec7190
+  revision: e2134a212c0b141644fa5e14f194aec963a8d3fb
   specs:
-    ruboty-sdb (0.0.7)
+    ruboty-sdb (0.0.8)
       addressable
       ruboty
 
@@ -107,7 +107,7 @@ DEPENDENCIES
   ruboty-inc (= 0.2.8)!
   ruboty-redis
   ruboty-redis-info
-  ruboty-sdb (= 0.0.7)!
+  ruboty-sdb (= 0.0.8)!
   ruboty-slack
 
 BUNDLED WITH
