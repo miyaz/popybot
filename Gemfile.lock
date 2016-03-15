@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/DreamArtsOkinawa/ruboty-sdb.git
-  revision: e2134a212c0b141644fa5e14f194aec963a8d3fb
+  revision: 8a02811337d50af6c028356ec6a361f02bb0c38b
   specs:
-    ruboty-sdb (0.0.8)
+    ruboty-sdb (0.0.9)
       addressable
       ruboty
 
@@ -16,9 +16,9 @@ GIT
 
 GIT
   remote: git://github.com/miyaz/ruboty-inc.git
-  revision: 810e815ec5f170641f00000ee9a18dafaf1365fc
+  revision: c86e810d3e5dbd2b12703c7708c3b2d82e1c1fa0
   specs:
-    ruboty-inc (0.2.8)
+    ruboty-inc (0.2.9)
       addressable
       ruboty
 
@@ -104,10 +104,10 @@ DEPENDENCIES
   ruboty-ec2 (= 0.5.6)!
   ruboty-echo
   ruboty-google_image
-  ruboty-inc (= 0.2.8)!
+  ruboty-inc (= 0.2.9)!
   ruboty-redis
   ruboty-redis-info
-  ruboty-sdb (= 0.0.8)!
+  ruboty-sdb (= 0.0.9)!
   ruboty-slack
 
 BUNDLED WITH
