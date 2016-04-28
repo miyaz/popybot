@@ -8,9 +8,9 @@ GIT
 
 GIT
   remote: git://github.com/miyaz/ruboty-ec2.git
-  revision: cb0827cd5598b2707520c1063adeed630e0ae9ac
+  revision: 64faa7c8006d0c629621e4f2bbcc808371d1b7fe
   specs:
-    ruboty-ec2 (0.6.2)
+    ruboty-ec2 (0.6.3)
       aws-sdk (~> 2.0.0)
       ruboty
 
@@ -103,7 +103,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-ec2 (= 0.6.2)!
+  ruboty-ec2 (= 0.6.3)!
   ruboty-echo
   ruboty-google_image
   ruboty-inc (= 0.3.2)!
