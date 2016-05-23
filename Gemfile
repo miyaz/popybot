@@ -11,4 +11,4 @@ gem "ruboty-slack"
 gem "ruboty-echo"
 gem 'ruboty-ec2', '0.6.7', :git => 'git://github.com/miyaz/ruboty-ec2.git'
 gem 'ruboty-inc', '0.3.3', :git => 'git://github.com/miyaz/ruboty-inc.git'
-gem 'ruboty-sdb', '0.1.2', :git => 'git://github.com/DreamArtsOkinawa/ruboty-sdb.git'
+gem 'ruboty-sdb', '0.1.3', :git => 'git://github.com/DreamArtsOkinawa/ruboty-sdb.git'
